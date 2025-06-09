@@ -1,0 +1,91 @@
+/* Tools Page Specific Styles */
+.tools-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.tools-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.tools-hero p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+/* Calculator Categories */
+.calculator-categories {
+    padding: 3rem 0;
+    background: #f8fafc;
+}
+
+.category-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.category-icon {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+.category-header h2 {
+    color: #1e293b;
+    font-size: 1.75rem;
+}
+
+.calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.calc-item {
+    display: block;
+    padding: 1.5rem;
+    background: #f8fafc;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.calc-item:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-color: #2563eb;
+}
+
+.calc-item h3 {
+    color: #2563eb;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.calc-item p {
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Active nav item */
+.nav-menu a.active {
+    color: #2563eb;
+    font-weight: 600;
+}
